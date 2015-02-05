@@ -1,0 +1,39 @@
+Host dp0
+    user dp
+    port 16021
+    identityfile ~/.ssh/id_rsa.pub
+
+Host dptest*
+    user dp
+    port 16021
+    identityfile ~/.ssh/id_rsa_dp0.pub
+
+Host dptrans*
+    user dp
+    port 16021
+    identityfile ~/.ssh/id_rsa_dp0.pub
+
+Host 192.168.1.26
+    Hostname http://github.umeng.com
+    user gl
+    identityfile ~/.ssh/id_rsa.pub
+
+Host aliyun
+	user root
+    identityfile ~/.ssh/id_rsa.pub
+
+Host do
+    user root
+
+Host dmp*
+    user dp
+    port 16021
+    identityfile ~/.ssh.id_rsa.pub
+Host aliyun
+    user root
+
+Host *
+ControlMaster auto
+ControlPath ~/.ssh/%h-%p-%r
+ControlPersist yes
+ServerAliveInterval 60
