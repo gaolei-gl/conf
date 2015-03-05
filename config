@@ -22,16 +22,6 @@ Host aliyun
 	user root
     identityfile ~/.ssh/id_rsa.pub
 
-Host do
-    user root
-
-Host dmp*
-    user dp
-    port 16021
-    identityfile ~/.ssh.id_rsa.pub
-Host aliyun
-    user root
-
 Host *
 ControlMaster auto
 ControlPath ~/.ssh/%h-%p-%r

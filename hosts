@@ -1,0 +1,969 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+fe80::1%lo0	localhost
+
+##
+## Host Database
+##
+## localhost is used to configure the loopback interface
+## when the system is booting.  Do not change this entry.
+###
+#
+##### Settings for Umeng
+#
+### Office & Work
+# 10.18.101.208   dp-syj
+#122.11.52.226   hadoop1
+192.168.1.27    nexus   nexus.umops.com
+# 122.11.52.233   git.fm
+# 122.11.52.233   github.umeng.com
+# 109.169.84.31   direct.gnailuy.com
+#
+
+192.168.1.10    hdp01.dp.bjdl.umops.us  hadoop1
+192.168.1.11    hdp02.dp.bjdl.umops.us     hadoop2
+192.168.1.12    hdp03.dp.bjdl.umops.us     hadoop3
+192.168.1.13    hdp04.dp.bjdl.umops.us     hadoop4
+192.168.1.14    hdp05.dp.bjdl.umops.us     hadoop5
+192.168.1.15    hdp06.dp.bjdl.umops.us     hadoop6
+192.168.1.16    hdp07.dp.bjdl.umops.us     hadoop7
+192.168.1.17    hdp08.dp.bjdl.umops.us     hadoop8
+
+
+
+
+### Cluster
+10.11.0.31  dp0.umops.us    dp0.umeng.com   dp0
+10.11.0.1   dp1.umops.us    dp1.umeng.com   dp1
+10.11.0.2   dp2.umops.us    dp2.umeng.com   dp2
+10.11.0.3   dp3.umops.us    dp3.umeng.com   dp3
+10.11.0.4   dp4.umops.us    dp4.umeng.com   dp4
+10.11.0.5   dp5.umops.us    dp5.umeng.com   dp5
+10.11.0.6   dp6.umops.us    dp6.umeng.com   dp6
+10.11.0.7   dp7.umops.us    dp7.umeng.com   dp7
+10.11.0.8   dp8.umops.us    dp8.umeng.com   dp8
+10.11.0.9   dp9.umops.us    dp9.umeng.com   dp9
+10.11.0.10  dp10.umops.us   dp10.umeng.com  dp10
+10.11.0.11  dp11.umops.us   dp11.umeng.com  dp11
+10.11.0.12  dp12.umops.us   dp12.umeng.com  dp12
+10.11.0.13  dp13.umops.us   dp13.umeng.com  dp13
+10.11.0.14  dp14.umops.us   dp14.umeng.com  dp14
+10.11.0.15  dp15.umops.us   dp15.umeng.com  dp15
+10.11.0.16  dp16.umops.us   dp16.umeng.com  dp16
+10.11.0.17  dp17.umops.us   dp17.umeng.com  dp17
+10.11.0.18  dp18.umops.us   dp18.umeng.com  dp18
+10.11.0.19  dp19.umops.us   dp19.umeng.com  dp19
+10.11.0.20  dp20.umops.us   dp20.umeng.com  dp20
+10.11.0.21  dp21.umops.us   dp21.umeng.com  dp21
+10.11.0.22  dp22.umops.us   dp22.umeng.com  dp22
+10.11.0.23  dp23.umops.us   dp23.umeng.com  dp23
+10.11.0.24  dp24.umops.us   dp24.umeng.com  dp24
+10.11.0.25  dp25.umops.us   dp25.umeng.com  dp25
+10.11.0.26  dp26.umops.us   dp26.umeng.com  dp26
+10.11.0.27  dp27.umops.us   dp27.umeng.com  dp27
+10.11.0.28  dp28.umops.us   dp28.umeng.com  dp28
+10.11.0.29  dp29.umops.us   dp29.umeng.com  dp29
+10.11.0.30  dp30.umops.us   dp30.umeng.com  dp30
+10.11.0.45  dp31.umops.us   dp31.umeng.com  dp31
+10.11.0.32  dp32.umops.us   dp32.umeng.com  dp32
+10.11.0.33  dp33.umops.us   dp33.umeng.com  dp33
+10.11.0.34  dp34.umops.us   dp34.umeng.com  dp34
+10.11.0.35  dp35.umops.us   dp35.umeng.com  dp35
+10.11.0.36  dp36.umops.us   dp36.umeng.com  dp36
+10.11.0.37  dp37.umops.us   dp37.umeng.com  dp37
+10.11.0.38  dp38.umops.us   dp38.umeng.com  dp38
+10.11.0.39  dp39.umops.us   dp39.umeng.com  dp39
+10.11.0.40  dp40.umops.us   dp40.umeng.com  dp40
+10.11.0.41  dp41.umops.us   dp41.umeng.com  dp41
+10.11.0.42  dp42.umops.us   dp42.umeng.com  dp42
+10.11.0.43  dp43.umops.us   dp43.umeng.com  dp43
+10.11.0.44  dp44.umops.us   dp44.umeng.com  dp44
+10.11.0.65  dp45.umops.us   dp45.umeng.com  dp45
+10.11.0.46  dp46.umops.us   dp46.umeng.com  dp46
+10.11.0.47  dp47.umops.us   dp47.umeng.com  dp47
+10.11.0.48  dp48.umops.us   dp48.umeng.com  dp48
+10.11.0.49  dp49.umops.us   dp49.umeng.com  dp49
+10.11.0.50  dp50.umops.us   dp50.umeng.com  dp50
+10.11.0.51  dp51.umops.us   dp51.umeng.com  dp51
+10.11.0.52  dp52.umops.us   dp52.umeng.com  dp52
+10.11.0.53  dp53.umops.us   dp53.umeng.com  dp53
+10.11.0.54  dp54.umops.us   dp54.umeng.com  dp54
+10.11.0.55  dp55.umops.us   dp55.umeng.com  dp55
+10.11.0.56  dp56.umops.us   dp56.umeng.com  dp56
+10.11.0.57  dp57.umops.us   dp57.umeng.com  dp57
+10.11.0.58  dp58.umops.us   dp58.umeng.com  dp58
+10.11.0.59  dp59.umops.us   dp59.umeng.com  dp59
+10.11.0.60  dp60.umops.us   dp60.umeng.com  dp60
+10.11.0.61  dp61.umops.us   dp61.umeng.com  dp61
+10.11.0.62  dp62.umops.us   dp62.umeng.com  dp62
+10.11.0.63  dp63.umops.us   dp63.umeng.com  dp63
+10.11.0.64  dp64.umops.us   dp64.umeng.com  dp64
+10.11.0.66  dp65.umops.us   dp65.umeng.com  dp65
+10.11.0.67  dp66.umops.us   dp66.umeng.com  dp66
+10.11.0.68  dp67.umops.us   dp67.umeng.com  dp67
+10.11.0.69  dp68.umops.us   dp68.umeng.com  dp68
+10.11.0.70  dp69.umops.us   dp69.umeng.com  dp69
+10.11.0.71  dp70.umops.us   dp70.umeng.com  dp70
+10.11.0.74  dp71.umops.us   dp71.umeng.com  dp71
+10.11.0.75  dp72.umops.us   dp72.umeng.com  dp72
+10.11.0.76  dp73.umops.us   dp73.umeng.com  dp73
+10.11.0.77  dp74.umops.us   dp74.umeng.com  dp74
+10.11.0.78  dp75.umops.us   dp75.umeng.com  dp75
+10.11.0.79  dp76.umops.us   dp76.umeng.com  dp76
+10.11.0.80  dp77.umops.us   dp77.umeng.com  dp77
+10.11.0.81  dp78.umops.us   dp78.umeng.com  dp78
+10.11.0.82  dp79.umops.us   dp79.umeng.com  dp79
+10.11.0.83  dp80.umops.us   dp80.umeng.com  dp80
+10.11.0.84  dp81.umops.us   dp81.umeng.com  dp81
+10.11.0.85  dp82.umops.us   dp82.umeng.com  dp82
+10.11.0.86  dp83.umops.us   dp83.umeng.com  dp83
+10.11.0.87  dp84.umops.us   dp84.umeng.com  dp84
+10.11.0.88  dp85.umops.us   dp85.umeng.com  dp85
+10.11.0.89  dp86.umops.us   dp86.umeng.com  dp86
+10.11.0.90  dp87.umops.us   dp87.umeng.com  dp87
+10.11.0.95  dp88.umops.us   dp88.umeng.com  dp88
+10.11.0.96  dp89.umops.us   dp89.umeng.com  dp89
+10.11.0.97  dp90.umops.us   dp90.umeng.com  dp90
+10.11.0.98  dp91.umops.us   dp91.umeng.com  dp91
+10.11.0.99  dp92.umops.us   dp92.umeng.com  dp92
+10.11.0.100 dp93.umops.us   dp93.umeng.com  dp93
+10.11.1.1   dp94.umops.us   dp94.umeng.com  dp94
+10.11.1.2   dp95.umops.us   dp95.umeng.com  dp95
+10.11.1.3   dp96.umops.us   dp96.umeng.com  dp96
+10.11.1.4   dp97.umops.us   dp97.umeng.com  dp97
+10.11.1.5   dp98.umops.us   dp98.umeng.com  dp98
+10.11.1.6   dp99.umops.us   dp99.umeng.com  dp99
+10.11.1.7   dp100.umops.us  dp100.umeng.com dp100
+10.11.1.8   dp101.umops.us  dp101.umeng.com dp101
+10.11.1.9   dp102.umops.us  dp102.umeng.com dp102
+10.11.1.10  dp103.umops.us  dp103.umeng.com dp103
+10.11.1.11  dp104.umops.us  dp104.umeng.com dp104
+10.11.1.12  dp105.umops.us  dp105.umeng.com dp105
+10.11.1.13  dp106.umops.us  dp106.umeng.com dp106
+10.11.1.14  dp107.umops.us  dp107.umeng.com dp107
+10.11.1.15  dp108.umops.us  dp108.umeng.com dp108
+10.11.1.16  dp109.umops.us  dp109.umeng.com dp109
+10.11.1.17  dp110.umops.us  dp110.umeng.com dp110
+10.11.1.18  dp111.umops.us  dp111.umeng.com dp111
+10.11.1.19  dp112.umops.us  dp112.umeng.com dp112
+10.11.1.20  dp113.umops.us  dp113.umeng.com dp113
+10.11.1.21  dp114.umops.us  dp114.umeng.com dp114
+10.11.1.22  dp115.umops.us  dp115.umeng.com dp115
+10.11.1.23  dp116.umops.us  dp116.umeng.com dp116
+10.11.1.24  dp117.umops.us  dp117.umeng.com dp117
+10.11.1.25  dp118.umops.us  dp118.umeng.com dp118
+10.11.1.26  dp119.umops.us  dp119.umeng.com dp119
+10.11.1.27  dp120.umops.us  dp120.umeng.com dp120
+10.11.1.28  dp121.umops.us  dp121.umeng.com dp121
+10.11.1.29  dp122.umops.us  dp122.umeng.com dp122
+10.11.1.30  dp123.umops.us  dp123.umeng.com dp123
+10.11.1.31  dp124.umops.us  dp124.umeng.com dp124
+10.11.1.32  dp125.umops.us  dp125.umeng.com dp125
+10.11.1.33  dp126.umops.us  dp126.umeng.com dp126
+10.11.1.34  dp127.umops.us  dp127.umeng.com dp127
+10.11.1.35  dp128.umops.us  dp128.umeng.com dp128
+10.11.1.36  dp129.umops.us  dp129.umeng.com dp129
+10.11.1.37  dp130.umops.us  dp130.umeng.com dp130
+10.11.1.38  dp131.umops.us  dp131.umeng.com dp131
+10.11.1.39  dp132.umops.us  dp132.umeng.com dp132
+10.11.1.40  dp133.umops.us  dp133.umeng.com dp133
+10.11.1.41  dp134.umops.us  dp134.umeng.com dp134
+10.11.1.42  dp135.umops.us  dp135.umeng.com dp135
+10.11.1.43  dp136.umops.us  dp136.umeng.com dp136
+10.11.1.44  dp137.umops.us  dp137.umeng.com dp137
+10.11.1.45  dp138.umops.us  dp138.umeng.com dp138
+10.11.1.46  dp139.umops.us  dp139.umeng.com dp139
+10.11.1.47 dp140.umops.us  dp140.umeng.com dp140
+10.11.1.48  dp141.umops.us     dp141.umeng.com dp141
+10.11.1.49  dp142.umops.us     dp142.umeng.com dp142
+10.11.1.50  dp143.umops.us     dp143.umeng.com dp143
+10.11.1.51  dp144.umops.us     dp144.umeng.com dp144
+10.11.1.52  dp145.umops.us     dp145.umeng.com dp145
+10.11.1.53  dp146.umops.us     dp146.umeng.com dp146
+10.11.1.54  dp147.umops.us     dp147.umeng.com dp147
+10.11.1.55  dp148.umops.us     dp148.umeng.com dp148
+10.11.1.56  dp149.umops.us     dp149.umeng.com dp149
+10.11.1.57  dp150.umops.us     dp150.umeng.com dp150
+10.11.1.58  dp151.umops.us     dp151.umeng.com dp151
+10.11.1.59  dp152.umops.us     dp152.umeng.com dp152
+10.11.1.60  dp153.umops.us     dp153.umeng.com dp153
+10.11.1.61  dp154.umops.us     dp154.umeng.com dp154
+
+10.11.0.91  dptest1.umops.us    dptest1.umeng.com   dptest1
+10.11.0.92  dptest2.umops.us    dptest2.umeng.com   dptest2
+10.11.0.93  dptest3.umops.us    dptest3.umeng.com   dptest3
+10.11.0.94  dptest4.umops.us    dptest4.umeng.com   dptest4
+10.11.2.2   dptest5.umops.us    dptest5.umeng.com   dptest5
+10.11.2.33  dptest6.umops.us    dptest6.umeng.com   dptest6
+10.11.2.34  dptest7.umops.us    dptest7.umeng.com   dptest7
+
+10.11.50.16 dptrans1.umops.us   dptrans1.umeng.com  dptrans1
+10.11.50.9  dptrans2.umops.us   dptrans2.umeng.com  dptrans2
+10.11.50.11 dptrans3.umops.us   dptrans3.umeng.com  dptrans3
+10.11.50.17 dptrans4.umops.us   dptrans4.umeng.com  dptrans4
+10.11.1.63  dptrans6.umops.us   dptrans6.umeng.com  dptrans6
+10.11.1.64  dptrans7.umops.us   dptrans7.umeng.com  dptrans7
+10.11.1.65  dptrans8.umops.us   dptrans8.umeng.com  dptrans8
+10.11.1.66  dptrans9.umops.us   dptrans9.umeng.com  dptrans9
+10.11.2.44  dptrans10.umops.us  dptrans10.umeng.com dptrans10
+10.11.2.45  dptrans11.umops.us  dptrans11.umeng.com dptrans11
+
+10.18.10.14 unode04-alog-as1.umeng.com  unode04-alog-as1    unode04
+10.18.10.15 unode05-alog-as2.umeng.com  unode05-alog-as2    unode05
+10.18.10.16 unode06
+10.18.10.17 unode07-plog-as2.umeng.com  unode07-plog-as2    unode07
+10.18.10.18 unode08
+10.18.10.19 unode09-alog-db2.umeng.com  unode09-alog-db2    unode09
+10.18.10.24 unode14
+10.18.10.28 unode18
+10.18.10.29 unode19-ct-db8.umeng.com    unode19-ct-db8      unode19
+10.18.10.39 unode29
+10.18.10.42 unode32
+10.18.10.52 unode42
+10.18.10.78 unode44
+10.18.10.79 unode45
+10.18.10.86 unode52
+10.18.10.66 unode57
+10.18.10.67 unode58
+10.18.10.68 unode59
+10.18.10.55 unode67
+10.18.10.56 unode68
+10.18.10.69 unode69
+10.18.20.3  unode76
+10.18.20.4  unode77
+10.18.20.45 unode111-cc-2   unode111
+
+10.18.10.76 umidtrap1.umops.us  umidtrap1.umeng.com umidtrap1
+10.18.10.77 umidtrap2.umops.us  umidtrap2.umeng.com umidtrap2
+10.18.20.18 umidtrap3.umops.us  umidtrap3.umeng.com umidtrap3
+10.18.20.19 umidtrap4.umops.us  umidtrap4.umeng.com umidtrap4
+10.11.0.72  umidtrap5.umops.us  umidtrap5.umeng.com umidtrap5
+10.11.0.73  umidtrap6.umops.us  umid6trap.umeng.com umidtrap6
+
+211.151.165.104 ad24.umops.us   ad24.umeng.com  ad24
+
+#### End ( Settings for Umeng )
+
+#UPDATE:2013-12-07 12:16
+
+#SmartHosts START
+
+# Google
+60.199.175.53   google.com
+60.199.175.53   www.google.com
+203.208.36.18   www.google.com.hk
+203.208.36.18   www.l.google.com
+203.208.36.18   www2.l.google.com
+203.208.36.18   www3.l.google.com
+203.208.36.18   www4.l.google.com
+60.199.175.187  play.google.com
+60.199.175.187  encrypted.google.com.hk
+60.199.175.187  encrypted.google.com
+60.199.175.187  accounts.google.com
+60.199.175.187  accounts.google.com.hk
+60.199.175.187  accounts.youtube.com
+60.199.175.187  accounts.l.google.com
+60.199.175.187  answers.google.com
+60.199.175.187  apis.google.com
+60.199.175.187  appengine.google.com
+60.199.175.187  apps.google.com
+60.199.175.187  appspot.l.google.com
+60.199.175.187  bks0.books.google.com
+60.199.175.187  bks1.books.google.com
+60.199.175.187  bks10.books.google.com
+60.199.175.187  bks2.books.google.com
+60.199.175.187  bks3.books.google.com
+60.199.175.187  bks4.books.google.com
+60.199.175.187  bks5.books.google.com
+60.199.175.187  bks6.books.google.com
+60.199.175.187  bks7.books.google.com
+60.199.175.187  bks8.books.google.com
+60.199.175.187  bks9.books.google.com
+60.199.175.187  blogsearch.google.com
+60.199.175.187  books.google.com
+60.199.175.187  browserchannel-docs.l.google.com
+60.199.175.187  browserchannel-spreadsheets.l.google.com
+60.199.175.187  browsersync.google.com
+60.199.175.187  browsersync.l.google.com
+60.199.175.187  buzz.google.com
+60.199.175.187  cache.l.google.com
+60.199.175.187  cache.pack.google.com
+60.199.175.187  calendar.google.com
+60.199.175.187  cbk0.google.com
+60.199.175.187  cbk1.google.com
+60.199.175.187  cbk2.google.com
+60.199.175.187  cbk3.google.com
+60.199.175.187  cbks0.google.com
+60.199.175.187  cbks1.google.com
+60.199.175.187  cbks2.google.com
+60.199.175.187  cbks3.google.com
+60.199.175.187  chart.apis.google.com
+60.199.175.187  checkout.google.com
+60.199.175.187  checkout.l.google.com
+60.199.175.187  chrome.google.com
+60.199.175.187  clients.l.google.com
+60.199.175.187  clients1.google.com
+60.199.175.187  clients2.google.com
+60.199.175.187  clients3.google.com
+60.199.175.187  clients4.google.com
+60.199.175.187  clients5.google.com
+60.199.175.187  clients6.google.com
+60.199.175.187  clients7.google.com
+60.199.175.187  code.google.com
+60.199.175.187  code.l.google.com
+60.199.175.187  csi.l.google.com
+60.199.175.187  desktop.google.com
+60.199.175.187  desktop.l.google.com
+60.199.175.187  desktop2.google.com
+# 60.199.175.187  developers.google.com
+60.199.175.187  ditu.google.com
+60.199.175.187  dl.google.com
+60.199.175.187  dl.l.google.com
+60.199.175.187  dl-ssl.google.com
+60.199.175.187  docs.google.com
+60.199.175.187  drive.google.com
+60.199.175.187  0.docs.google.com
+60.199.175.187  0.drive.google.com
+60.199.175.187  1.docs.google.com
+60.199.175.187  1.drive.google.com
+60.199.175.187  10.docs.google.com
+60.199.175.187  10.drive.google.com
+60.199.175.187  11.docs.google.com
+60.199.175.187  11.drive.google.com
+60.199.175.187  12.docs.google.com
+60.199.175.187  12.drive.google.com
+60.199.175.187  13.docs.google.com
+60.199.175.187  13.drive.google.com
+60.199.175.187  14.docs.google.com
+60.199.175.187  14.drive.google.com
+60.199.175.187  15.docs.google.com
+60.199.175.187  15.drive.google.com
+60.199.175.187  16.docs.google.com
+60.199.175.187  16.drive.google.com
+60.199.175.187  2.docs.google.com
+60.199.175.187  2.drive.google.com
+60.199.175.187  3.docs.google.com
+60.199.175.187  3.drive.google.com
+60.199.175.187  4.docs.google.com
+60.199.175.187  4.drive.google.com
+60.199.175.187  5.docs.google.com
+60.199.175.187  5.drive.google.com
+60.199.175.187  6.docs.google.com
+60.199.175.187  6.drive.google.com
+60.199.175.187  7.docs.google.com
+60.199.175.187  7.drive.google.com
+60.199.175.187  8.docs.google.com
+60.199.175.187  8.drive.google.com
+60.199.175.187  9.docs.google.com
+60.199.175.187  9.drive.google.com
+60.199.175.187  docs0.google.com
+60.199.175.187  docs1.google.com
+60.199.175.187  docs2.google.com
+60.199.175.187  docs3.google.com
+60.199.175.187  docs4.google.com
+60.199.175.187  docs5.google.com
+60.199.175.187  docs6.google.com
+60.199.175.187  docs7.google.com
+60.199.175.187  docs8.google.com
+60.199.175.187  docs9.google.com
+60.199.175.187  drive.google.com
+60.199.175.187  earth.google.com
+60.199.175.187  encrypted.google.com
+60.199.175.187  encrypted-tbn.l.google.com
+60.199.175.187  encrypted-tbn0.google.com
+60.199.175.187  encrypted-tbn1.google.com
+60.199.175.187  encrypted-tbn2.google.com
+60.199.175.187  encrypted-tbn3.google.com
+60.199.175.187  feedburner.google.com
+60.199.175.187  feedproxy.google.com
+60.199.175.187  finance.google.com
+60.199.175.187  fusion.google.com
+60.199.175.187  geoauth.google.com
+60.199.175.187  gg.google.com
+60.199.175.187  googleapis.l.google.com
+60.199.175.187  googleapis-ajax.google.com
+60.199.175.187  googleapis-ajax.l.google.com
+60.199.175.187  googlecode.l.google.com
+60.199.175.187  google-public-dns-a.google.com
+60.199.175.187  google-public-dns-b.google.com
+60.199.175.187  goto.google.com
+60.199.175.187  groups.google.com
+60.199.175.187  groups.l.google.com
+60.199.175.187  groups-beta.google.com
+60.199.175.187  gxc.google.com
+60.199.175.187  id.google.com
+60.199.175.187  id.l.google.com
+60.199.175.187  images.google.com
+60.199.175.187  images.l.google.com
+60.199.175.187  investor.google.com
+60.199.175.187  jmt0.google.com
+60.199.175.187  kh.google.com
+60.199.175.187  kh.l.google.com
+60.199.175.187  khm.google.com
+60.199.175.187  khm.l.google.com
+60.199.175.187  khm0.google.com
+60.199.175.187  khm1.google.com
+60.199.175.187  khm2.google.com
+60.199.175.187  khm3.google.com
+60.199.175.187  khmdb.google.com
+60.199.175.187  khms.google.com
+60.199.175.187  khms.l.google.com
+60.199.175.187  khms0.google.com
+60.199.175.187  khms1.google.com
+60.199.175.187  khms2.google.com
+60.199.175.187  khms3.google.com
+60.199.175.187  labs.google.com
+60.199.175.187  large-uploads.l.google.com
+60.199.175.187  lh2.google.com
+60.199.175.187  lh2.l.google.com
+60.199.175.187  lh3.google.com
+60.199.175.187  lh4.google.com
+60.199.175.187  lh5.google.com
+60.199.175.187  lh6.google.com
+60.199.175.187  linkhelp.clients.google.com
+60.199.175.187  local.google.com
+60.199.175.187  m.google.com
+60.199.175.187  map.google.com
+60.199.175.187  maps.google.com
+60.199.175.187  maps.l.google.com
+60.199.175.187  maps-api-ssl.google.com
+60.199.175.187  mars.google.com
+60.199.175.187  mobile.l.google.com
+60.199.175.187  mobile-gtalk.l.google.com
+60.199.175.187  mobilemaps.clients.google.com
+60.199.175.187  mt.google.com
+60.199.175.187  mt.l.google.com
+60.199.175.187  mt0.google.com
+60.199.175.187  mt1.google.com
+60.199.175.187  mt2.google.com
+60.199.175.187  mt3.google.com
+60.199.175.187  mts.google.com
+60.199.175.187  mts.l.google.com
+60.199.175.187  mts0.google.com
+60.199.175.187  mts1.google.com
+60.199.175.187  mts2.google.com
+60.199.175.187  mts3.google.com
+60.199.175.187  music.google.com
+60.199.175.187  music-streaming.l.google.com
+60.199.175.187  mw1.google.com
+60.199.175.187  mw2.google.com
+60.199.175.187  news.google.com
+60.199.175.187  news.l.google.com
+60.199.175.187  pack.google.com
+60.199.175.187  photos.google.com
+60.199.175.187  photos-ugc.l.google.com
+60.199.175.187  picasa.google.com
+60.199.175.187  picasaweb.google.com
+60.199.175.187  picasaweb.l.google.com
+60.199.175.187  places.google.com
+60.199.175.187  play.google.com
+60.199.175.187  productforums.google.com
+60.199.175.187  profiles.google.com
+60.199.175.187  reader.google.com
+60.199.175.187  safebrowsing.cache.l.google.com
+60.199.175.187  safebrowsing.clients.google.com
+60.199.175.187  safebrowsing.google.com
+60.199.175.187  safebrowsing-cache.google.com
+60.199.175.187  sandbox.google.com
+60.199.175.187  sb.google.com
+60.199.175.187  sb.l.google.com
+60.199.175.187  sb-ssl.google.com
+60.199.175.187  sb-ssl.l.google.com
+60.199.175.187  scholar.google.com
+60.199.175.187  scholar.l.google.com
+60.199.175.187  script.google.com
+60.199.175.187  services.google.com
+60.199.175.187  sites.google.com
+60.199.175.187  sketchup.google.com
+60.199.175.187  sketchup.l.google.com
+60.199.175.187  spreadsheet.google.com
+60.199.175.187  spreadsheets.google.com
+60.199.175.187  spreadsheets.l.google.com
+60.199.175.187  spreadsheets0.google.com
+60.199.175.187  spreadsheets1.google.com
+60.199.175.187  spreadsheets2.google.com
+60.199.175.187  spreadsheets3.google.com
+60.199.175.187  spreadsheets4.google.com
+60.199.175.187  spreadsheets5.google.com
+60.199.175.187  spreadsheets6.google.com
+60.199.175.187  spreadsheets7.google.com
+60.199.175.187  spreadsheets8.google.com
+60.199.175.187  spreadsheets9.google.com
+60.199.175.187  spreadsheets-china.l.google.com
+60.199.175.187  suggestqueries.google.com
+60.199.175.187  suggestqueries.l.google.com
+60.199.175.187  support.google.com
+60.199.175.187  talkgadget.google.com
+60.199.175.187  tbn0.google.com
+60.199.175.187  tbn1.google.com
+60.199.175.187  tbn2.google.com
+60.199.175.187  tbn3.google.com
+60.199.175.187  toolbar.google.com
+60.199.175.187  toolbarqueries.clients.google.com
+60.199.175.187  toolbarqueries.google.com
+60.199.175.187  toolbarqueries.l.google.com
+60.199.175.187  tools.google.com
+60.199.175.187  tools.l.google.com
+60.199.175.187  translate.google.com
+60.199.175.187  trends.google.com
+60.199.175.187  upload.docs.google.com
+60.199.175.187  upload.drive.google.com
+60.199.175.187  uploads.code.google.com
+60.199.175.187  uploadsj.clients.google.com
+60.199.175.187  v3.cache1.c.docs.google.com
+60.199.175.187  video.google.com
+60.199.175.187  video-stats.l.google.com
+60.199.175.187  voice.google.com
+60.199.175.187  wallet.google.com
+60.199.175.187  wifi.google.com
+60.199.175.187  wifi.l.google.com
+60.199.175.187  wire.l.google.com
+60.199.175.187  writely.google.com
+60.199.175.187  writely.l.google.com
+60.199.175.187  writely-china.l.google.com
+60.199.175.187  writely-com.l.google.com
+60.199.175.187  ytstatic.l.google.com
+
+##Gmail
+173.194.72.189  chatenabled.mail.google.com
+173.194.72.189  filetransferenabled.mail.google.com
+74.125.23.17    www.gmail.com
+74.125.235.118  www.gmail.com
+74.125.23.17    gmail.com
+74.125.235.118  gmail.com
+74.125.23.17    mail.google.com
+74.125.235.118  mail.google.com
+#
+##GStatic
+74.125.142.120  csi.gstatic.com
+74.125.142.120  g0.gstatic.com
+74.125.142.120  g1.gstatic.com
+74.125.142.120  g2.gstatic.com
+74.125.142.120  g3.gstatic.com
+74.125.142.120  maps.gstatic.com
+74.125.142.120  mt0.gstatic.com
+74.125.142.120  mt1.gstatic.com
+74.125.142.120  mt2.gstatic.com
+74.125.142.120  mt3.gstatic.com
+74.125.142.120  mt4.gstatic.com
+74.125.142.120  mt5.gstatic.com
+74.125.142.120  mt6.gstatic.com
+74.125.142.120  mt7.gstatic.com
+74.125.142.120  ssl.gstatic.com
+74.125.142.120  t0.gstatic.com
+74.125.142.120  t1.gstatic.com
+74.125.142.120  t2.gstatic.com
+74.125.142.120  t3.gstatic.com
+74.125.142.120  www.gstatic.com
+#
+## GUserContents
+203.208.37.10   static.googleusercontent.com
+203.208.37.10   0-open-opensocial.googleusercontent.com
+203.208.37.10   0-focus-opensocial.googleusercontent.com
+203.208.37.10   1-focus-opensocial.googleusercontent.com
+203.208.37.10   1-open-opensocial.googleusercontent.com
+203.208.37.10   1-ps.googleusercontent.com
+203.208.37.10   2-focus-opensocial.googleusercontent.com
+203.208.37.10   2-open-opensocial.googleusercontent.com
+203.208.37.10   2-ps.googleusercontent.com
+203.208.37.10   3-focus-opensocial.googleusercontent.com
+203.208.37.10   3-ps.googleusercontent.com
+203.208.37.10   3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com
+203.208.37.10   3-open-opensocial.googleusercontent.com
+203.208.37.10   4-ps.googleusercontent.com
+203.208.37.10   4fjvqid3r3oq66t548clrdj52df15coc-a-oz-opensocial.googleusercontent.com
+203.208.37.10   53rd6p0catml6vat6qra84rs0del836d-a-oz-opensocial.googleusercontent.com
+203.208.37.10   59cbv4l9s05pbaks9v77vc3mengeqors-a-oz-opensocial.googleusercontent.com
+203.208.37.10   8kubpeu8314p2efdd7jlv09an9i2ljdo-a-oz-opensocial.googleusercontent.com
+203.208.37.10   adstvca8k2ooaknjjmv89j22n9t676ve-a-oz-opensocial.googleusercontent.com
+203.208.37.10   a-oz-opensocial.googleusercontent.com
+203.208.37.10   blogger.googleusercontent.com
+203.208.37.10   bt26mravu2qpe56n8gnmjnpv2inl84bf-a-oz-opensocial.googleusercontent.com
+203.208.37.10   clients1.googleusercontent.com
+203.208.37.10   clients2.googleusercontent.com
+203.208.37.10   clients3.googleusercontent.com
+203.208.37.10   clients4.googleusercontent.com
+203.208.37.10   clients5.googleusercontent.com
+203.208.37.10   clients6.googleusercontent.com
+203.208.37.10   clients7.googleusercontent.com
+203.208.37.10   code-opensocial.googleusercontent.com
+203.208.37.10   debh8vg7vd93bco3prdajidmm7dhql3f-a-oz-opensocial.googleusercontent.com
+203.208.37.10   doc-00-7o-docs.googleusercontent.com
+203.208.37.10   doc-08-7o-docs.googleusercontent.com
+203.208.37.10   doc-0c-7o-docs.googleusercontent.com
+203.208.37.10   doc-0g-7o-docs.googleusercontent.com
+203.208.37.10   doc-0s-7o-docs.googleusercontent.com
+203.208.37.10   doc-10-7o-docs.googleusercontent.com
+203.208.37.10   doc-14-7o-docs.googleusercontent.com
+203.208.37.10   feedback.googleusercontent.com
+203.208.37.10   googlehosted.l.googleusercontent.com
+203.208.37.10   hsco54a20sh11q9jkmb51ad2n3hmkmrg-a-oz-opensocial.googleusercontent.com
+203.208.37.10   i8brh95qor6r54nkl52hidj2ggcs4jgm-a-oz-opensocial.googleusercontent.com
+203.208.37.10   images1-focus-opensocial.googleusercontent.com
+203.208.37.10   images2-focus-opensocial.googleusercontent.com
+203.208.37.10   images3-focus-opensocial.googleusercontent.com
+203.208.37.10   images4-focus-opensocial.googleusercontent.com
+203.208.37.10   images5-focus-opensocial.googleusercontent.com
+203.208.37.10   images6-focus-opensocial.googleusercontent.com
+203.208.37.10   images7-focus-opensocial.googleusercontent.com
+203.208.37.10   images8-focus-opensocial.googleusercontent.com
+203.208.37.10   images9-focus-opensocial.googleusercontent.com
+203.208.37.10   images-docs-opensocial.googleusercontent.com
+203.208.37.10   k6v18tjr24doa89b55o3na41kn4v73eb-a-oz-opensocial.googleusercontent.com
+203.208.37.10   lh1.googleusercontent.com
+203.208.37.10   lh2.googleusercontent.com
+203.208.37.10   lh3.googleusercontent.com
+203.208.37.10   lh4.googleusercontent.com
+203.208.37.10   lh5.googleusercontent.com
+203.208.37.10   lh6.googleusercontent.com
+203.208.37.10   mail-attachment.googleusercontent.com
+203.208.37.10   music.googleusercontent.com
+203.208.37.10   music-onebox.googleusercontent.com
+203.208.37.10   oauth.googleusercontent.com
+203.208.37.10   ob7f2qc0i50kbjnc81vkhgmb5hsv7a8l-a-oz-opensocial.googleusercontent.com
+203.208.37.10   ode25pfjgmvpquh3b1oqo31ti5ibg5fr-a-calendar.opensocial.googleusercontent.com
+203.208.37.10   qhie5b8u979rnch1q0hqbrmbkn9estf7-a-oz-opensocial.googleusercontent.com
+203.208.37.10   r70rmsn4s0rhk6cehcbbcbfbs31pu0va-a-oz-opensocial.googleusercontent.com
+203.208.37.10   rbjhe237k979f79d87gmenp3gejfonu9-a-oz-opensocial.googleusercontent.com
+203.208.37.10   s1.googleusercontent.com
+203.208.37.10   s2.googleusercontent.com
+203.208.37.10   s3.googleusercontent.com
+203.208.37.10   s4.googleusercontent.com
+203.208.37.10   s5.googleusercontent.com
+203.208.37.10   s6.googleusercontent.com
+203.208.37.10   spreadsheets-opensocial.googleusercontent.com
+203.208.37.10   t.doc-0-0-sj.sj.googleusercontent.com
+203.208.37.10   themes.googleusercontent.com
+203.208.37.10   translate.googleusercontent.com
+203.208.37.10   u807isd5egseeabjccgcns005p2miucq-a-oz-opensocial.googleusercontent.com
+203.208.37.10   upt14k1i2veesusrda9nfotcrbp9d7p5-a-oz-opensocial.googleusercontent.com
+203.208.37.10   webcache.googleusercontent.com
+203.208.37.10   www.googleusercontent.com
+203.208.37.10   www-calendar-opensocial.googleusercontent.com
+203.208.37.10   www-fc-opensocial.googleusercontent.com
+203.208.37.10   www-focus-opensocial.googleusercontent.com
+203.208.37.10   www-gm-opensocial.googleusercontent.com
+203.208.37.10   www-kix-opensocial.googleusercontent.com
+203.208.37.10   www-open-opensocial.googleusercontent.com
+203.208.37.10   www-opensocial.googleusercontent.com
+203.208.37.10   www-opensocial-sandbox.googleusercontent.com
+203.208.37.10   www-oz-opensocial.googleusercontent.com
+203.208.37.10   www-drawing-opensocial.googleusercontent.com
+203.208.37.10   storage.googleusercontent.com
+203.208.37.10   storage.l.googleusercontent.com
+
+203.208.37.10   lh1.ggpht.com
+203.208.37.10   lh2.ggpht.com
+203.208.37.10   lh3.ggpht.com
+203.208.37.10   lh4.ggpht.com
+203.208.37.10   lh5.ggpht.com
+203.208.37.10   lh6.ggpht.com
+203.208.37.10   nt0.ggpht.com
+203.208.37.10   nt1.ggpht.com
+203.208.37.10   nt2.ggpht.com
+203.208.37.10   nt3.ggpht.com
+203.208.37.10   nt4.ggpht.com
+203.208.37.10   nt5.ggpht.com
+
+60.199.175.187  appspot.com
+60.199.175.187  chrometophone.appspot.com
+60.199.175.187  evolutionofweb.appspot.com
+60.199.175.187  googcloudlabs.appspot.com
+60.199.175.187  gv-gadget.appspot.com
+60.199.175.187  magnifier.blogspot.com
+60.199.175.187  moderator.appspot.com
+60.199.175.187  newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com
+60.199.175.187  productideas.appspot.com
+60.199.175.187  project-slingshot-gp.appspot.com
+60.199.175.187  r2303.latest.project-slingshot-hr.appspot.com
+60.199.175.187  r3085-dot-latest-dot-project-slingshot-gp.appspot.com
+60.199.175.187  r3091-dot-latest-dot-project-slingshot-gp.appspot.com
+60.199.175.187  r3101-dot-latest-dot-project-slingshot-gp.appspot.com
+60.199.175.187  r3269-dot-latest-dot-project-slingshot-gp.appspot.com
+60.199.175.187  r3432-dot-latest-dot-project-slingshot-hr.appspot.com
+60.199.175.187  r4681-dot-latest-dot-project-slingshot-hr.appspot.com
+60.199.175.187  r7647-dot-latest-dot-project-slingshot-hr.appspot.com
+60.199.175.187  wcproxyx.appspot.com
+60.199.175.187  www.appspot.com
+
+60.199.175.187  ajax.googleapis.com
+60.199.175.187  chart.googleapis.com
+60.199.175.187  fonts.googleapis.com
+60.199.175.187  maps.googleapis.com
+60.199.175.187  mt0.googleapis.com
+60.199.175.187  mt1.googleapis.com
+60.199.175.187  mt2.googleapis.com
+60.199.175.187  mt3.googleapis.com
+60.199.175.187  redirector-bigcache.googleapis.com
+60.199.175.187  translate.googleapis.com
+60.199.175.187  www.googleapis.com
+
+60.199.175.187  autoproxy-gfwlist.googlecode.com
+60.199.175.187  chromium.googlecode.com
+60.199.175.187  closure-library.googlecode.com
+60.199.175.187  earth-api-samples.googlecode.com
+60.199.175.187  gmaps-samples-flash.googlecode.com
+60.199.175.187  google-code-feed-gadget.googlecode.com
+
+60.199.175.187  blogsearch.google.cn
+60.199.175.187  ditu.google.cn
+60.199.175.187  gg.google.cn
+60.199.175.187  id.google.cn
+60.199.175.187  maps.gstatic.cn
+60.199.175.187  m.google.cn
+60.199.175.187  mt.google.cn
+60.199.175.187  mt0.google.cn
+60.199.175.187  mt1.google.cn
+60.199.175.187  mt2.google.cn
+60.199.175.187  mt3.google.cn
+60.199.175.187  news.google.cn
+60.199.175.187  scholar.google.cn
+60.199.175.187  translate.google.cn
+60.199.175.187  www.google.cn
+60.199.175.187  www.gstatic.cn
+
+60.199.175.187  accounts.google.com.hk
+60.199.175.187  blogsearch.google.com.hk
+60.199.175.187  books.google.com.hk
+60.199.175.187  clients1.google.com.hk
+60.199.175.187  desktop.google.com.hk
+60.199.175.187  groups.google.com.hk
+60.199.175.187  gxc.google.com.hk
+60.199.175.187  id.google.com.hk
+60.199.175.187  images.google.com.hk
+60.199.175.187  m.google.com.hk
+60.199.175.187  maps.google.com.hk
+60.199.175.187  news.google.com.hk
+60.199.175.187  picasaweb.google.com.hk
+60.199.175.187  plus.url.google.com.hk
+60.199.175.187  scholar.google.com.hk
+60.199.175.187  toolbar.google.com.hk
+60.199.175.187  toolbarqueries.google.com.hk
+60.199.175.187  translate.google.com.hk
+60.199.175.187  translate.google.com.hk
+60.199.175.187  wenda.google.com.hk
+60.199.175.187  www.google.com.hk
+
+60.199.175.187  accounts.blogger.com
+60.199.175.187  android.googlesource.com
+60.199.175.187  auth.keyhole.com
+60.199.175.187  chrome.angrybirds.com
+60.199.175.187  chromium.org
+60.199.175.187  codereview.chromium.org
+60.199.175.187  dev.chromium.org
+60.199.175.187  developer.android.com
+60.199.175.187  developer.chrome.com
+60.199.175.187  domains.googlesyndication.com
+60.199.175.187  earthengine.googlelabs.com
+60.199.175.187  feeds.feedburner.com
+60.199.175.187  g.co
+60.199.175.187  goo.gl
+60.199.175.187  listen.googlelabs.com
+60.199.175.187  m.gmail.com
+60.199.175.187  m.googlemail.com
+60.199.175.187  market.android.com
+60.199.175.187  ngrams.googlelabs.com
+203.208.37.30   ssl.google-analytics.com
+60.199.175.187  www.blogger.com
+60.199.175.187  www.chromium.org
+60.199.175.187  www.gmail.com
+60.199.175.187  www.googleadservices.com
+203.208.37.30   www.google-analytics.com
+60.199.175.187  www.googlelabs.com
+60.199.175.187  www.googlesource.com
+
+60.199.175.187  plus.google.com
+60.199.175.187  plus.url.google.com
+60.199.175.187  plus.url.google.com.hk
+60.199.175.187  plusone.google.com
+# Google END
+
+#Facebook Start
+173.252.112.28  api-read.facebook.com
+173.252.112.28  api.facebook.com
+173.252.112.28  apps.facebook.com
+173.252.112.28  developers.facebook.com
+173.252.112.28  facebook.com
+173.252.112.28  graph.facebook.com
+173.252.112.28  orcart.facebook.com
+173.252.112.28  www.facebook.com
+173.252.112.28  zh-CN.facebook.com
+
+173.252.100.25  m.facebook.com
+
+61.213.189.98   b.static.ak.facebook.com
+61.213.189.120  b.static.ak.fbcdn.net
+66.220.145.63   bigzipfiles.facebook.com
+61.213.189.113  creative.ak.fbcdn.net
+66.152.103.74   external.ak.fbcdn.net
+#Facebook End
+
+#Flickr START
+98.136.43.76    geo.yahoo.com
+68.142.250.161  l.yimg.com
+96.6.93.227     s.yimg.com
+98.137.88.88    d.yimg.com
+68.142.196.57   c5.ah.yahoo.com
+124.108.120.124 sa.edit.yahoo.com
+66.163.168.247  open.login.yahoo.com
+124.108.97.193  login.yahoo.com
+209.191.92.115  edit.yahoo.com
+209.191.121.31  up.flickr.com
+209.191.105.102 adjax.flickr.yahoo.com
+204.0.5.35      content.yieldmanager.edgesuite.net
+204.0.5.34      us.js2.yimg.com
+
+#data from HostsX
+68.142.214.24   flickr.com
+66.196.66.157   www.flickr.com
+68.142.214.43   static.flickr.com
+77.238.160.184  static.flickr.com
+209.191.105.102 adjax.flickr.yahoo.com
+68.142.214.43   farm1.staticflickr.com
+68.142.214.43   mud.farm1.staticflickr.com
+69.147.90.159   farm2.staticflickr.com
+69.147.90.159   sp1.farm2.staticflickr.com
+77.238.160.184  farm3.staticflickr.com
+98.137.205.236  bf1.farm3.staticflickr.com
+216.39.54.34    gq1.farm3.staticflickr.com
+69.147.90.215   sp1.farm3.staticflickr.com
+76.13.18.77     farm4.staticflickr.com
+76.13.18.77     ac4.farm4.staticflickr.com
+67.195.19.62    gq1.farm4.staticflickr.com
+76.13.18.79     farm5.staticflickr.com
+67.195.19.65    gq1.farm5.staticflickr.com
+98.136.171.208  farm6.staticflickr.com
+98.139.21.45    bf1.farm6.staticflickr.com
+98.136.171.208  gq1.farm6.staticflickr.com
+98.138.250.88   farm7.staticflickr.com
+98.139.235.135  bf1.farm7.staticflickr.com
+98.138.250.88   ne1.farm7.staticflickr.com
+#Flickr END
+#
+#Twitter START
+199.59.150.141  twitter.com
+199.59.150.141  mobile.twitter.com
+199.59.150.142  api.twitter.com
+
+199.16.156.47   pic.twitter.com
+199.59.148.136  stream.twitter.com
+199.59.148.137  sitestream.twitter.com
+199.59.148.135  betastream.twitter.com
+199.59.148.148  upload.twitter.com
+199.59.149.137  dev.twitter.com
+199.59.149.91   pay.twitter.com
+199.59.148.149  urls-real.api.twitter.com
+199.16.156.81   userstream.twitter.com
+199.16.156.12   support.twitter.com
+
+##199.59.148.210  t.co
+69.58.188.34    bitly.com
+#
+208.87.33.151   api.mobilepicture.com
+
+199.59.148.16   a0.twimg.com
+199.59.148.16   a1.twimg.com
+199.59.148.16   p.twimg.com
+184.169.75.33   si0.twimg.com
+184.169.75.33   si1.twimg.com
+184.169.75.33   si2.twimg.com
+184.169.75.33   si3.twimg.com
+184.169.75.33   si4.twimg.com
+184.169.75.33   si5.twimg.com
+199.16.156.77   image-proxy-origin.twimg.com
+
+209.17.70.144   oi40.tinypic.com
+209.17.70.143   oi41.tinypic.com
+209.17.70.143   oi42.tinypic.com
+209.17.70.143   oi43.tinypic.com
+209.17.70.143   oi44.tinypic.com
+209.17.70.143   oi45.tinypic.com
+209.17.70.143   oi46.tinypic.com
+209.17.70.143   oi47.tinypic.com
+209.17.70.143   oi48.tinypic.com
+209.17.70.143   oi49.tinypic.com
+209.17.70.143   oi50.tinypic.com
+209.17.70.144   oi51.tinypic.com
+209.17.70.144   oi52.tinypic.com
+209.17.70.144   oi53.tinypic.com
+209.17.70.144   oi54.tinypic.com
+209.17.70.144   oi55.tinypic.com
+209.17.70.144   oi56.tinypic.com
+
+50.97.168.42    web1.twitpic.com
+50.23.200.233   web10.twitpic.com
+50.97.168.43    web2.twitpic.com
+50.97.168.43    web3.twitpic.com
+50.97.168.40    web4.twitpic.com
+50.97.168.41    web5.twitpic.com
+50.23.200.231   web6.twitpic.com
+50.23.200.232   web7.twitpic.com
+50.23.200.229   web8.twitpic.com
+50.23.200.228   web9.twitpic.com
+174.37.33.172   m1.twitpic.com
+50.23.200.230   twitpic.com
+
+208.94.0.61     a.yfrog.com
+208.94.0.61     yfrog.com
+208.94.0.61     www.yfrog.com
+#Twitter END
+
+#Adobe Activation START
+0.0.0.0     3dns-2.adobe.com
+0.0.0.0     3dns-3.adobe.com
+0.0.0.0     activate.adobe.com
+0.0.0.0     activate-sea.adobe.com
+0.0.0.0     activate-sjc0.adobe.com
+0.0.0.0     adobe-dns.adobe.com
+0.0.0.0     adobe-dns-2.adobe.com
+0.0.0.0     adobe-dns-3.adobe.com
+0.0.0.0     ereg.adobe.com
+0.0.0.0     hl2rcv.adobe.com
+0.0.0.0     practivate.adobe.com
+0.0.0.0     wip3.adobe.com
+0.0.0.0     activate.wip3.adobe.com
+0.0.0.0     ereg.wip3.adobe.com
+0.0.0.0     wwis-dubc1-vip60.adobe.com
+#Adobe Activation END
+#
+#YouTube START
+60.199.175.187  apiblog.youtube.com
+60.199.175.187  help.youtube.com
+60.199.175.187  i.ytimg.com
+60.199.175.187  i1.ytimg.com
+60.199.175.187  i2.ytimg.com
+60.199.175.187  i3.ytimg.com
+60.199.175.187  i4.ytimg.com
+60.199.175.187  insight.youtube.com
+60.199.175.187  m.youtube.com
+60.199.175.187  s.ytimg.com
+60.199.175.187  www.youtube.com
+60.199.175.187  ytimg.l.google.com
+#YouTube END
+#
+#Feedly START
+173.194.79.141  feedly-beta.appspot.com
+173.194.74.121  s3.feedly.com
+#Feedly END
+
+#Others START
+38.229.72.14    www.torproject.org
+#Others END
+
+#SmartHosts END
+
+
+
+
+
+114.215.101.70  aliyun
+23.239.5.45 linode
+118.244.193.247 dev7
+118.244.193.242 dev2
