@@ -60,15 +60,21 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+alias gosh='ssh gl.gl@login1.cm3.alibaba.org'
+alias axel='~/Utils/lg_download.sh'
+alias left=' xrandr -o left'
+alias normal=' xrandr -o normal'
+alias right='xrandr -o right'
+alias vpn='~/Utils/lg_vpn.sh'
 alias iceberg='cd ~/work/dp/iceberg'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias gfw='(sslocal -s do -p 10080 -l 10080 -k gaolei -m aes-256-cfb &>/dev/null &)'
 alias ll='ls -lFrth'
-alias cp2test='scp target/iceberg-*-jar-with-dependencies.jar dptest2:~/gene/'
-alias cp2dp='scp target/iceberg-*-jar-with-dependencies.jar dp0:~/gene/'
-alias tmuxa='tmux attach'
+alias gsh='ssh gl.gl@login1.cm3.alibaba.org'
+alias cp2test='scp target/iceberg-*.*-jar-with-dependencies.jar dptest2:~/gene/'
+alias cp2dp='scp target/iceberg-*.*-jar-with-dependencies.jar dp0:~/gene/'
 alias la='ls -A'
 alias l='ls -alCF'
 alias yd='/home/lei/Utils/yd.rb'
@@ -87,7 +93,7 @@ alias dptrans8='ssh dptrans8'
 alias dptrans9='ssh dptrans9'
 alias dptrans10='ssh dptrans10'
 alias dptrans11='ssh dptrans11'
-alias go='ssh aliyun'
+alias go='/home/lei/Utils/go.sh'
 alias upload=/home/lei/Utils/lg_upload.sh
 
 # User configuration
@@ -100,7 +106,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 export SCALA_HOME=/home/lei/software/scala-2.11.1
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 export PATH="$JAVA_HOME/bin:$MVN_HOME/bin:$SCALA_HOME/bin:$GRADLE_HOME/bin:$PATH"
-
+export UM=`python ~/Utils/getip.py`
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
