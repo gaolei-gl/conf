@@ -6,13 +6,11 @@ eval `dircolors -b ~/.dircolors`
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="robbyrussell"
 ZSH_THEME="frisk"
+#ZSH_THEME="robbyrussell"
 #ZSH_THEME="afowler"
 #ZSH_THEME="agnoster"
 DEFAULT_USER=`whoami`
-#export TERM=xterm-256color
-#eval 'dircolors ~/.dircolors'
 
 # Set this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -51,7 +49,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git copydir copyfile cp django github history mvn python rails ruby sbt scala screen sudo tumx ant urltools autojump)
+plugins=(git copydir copyfile cp django github history mvn python rails ruby sbt scala screen sudo tumx ant urltools autojump docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -70,7 +68,7 @@ alias iceberg='cd ~/work/dp/iceberg'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-alias gfw='(sslocal -s do -p 10080 -l 10080 -k gaolei -m aes-256-cfb &>/dev/null &)'
+alias gfw='(sslocal -s do -p 10080 -l 10080 -k gaolei -m aes-256-cfb &>/dev/null &; sslocal -s 140.205.141.209 -p 8080 -l 7070 -k zLB4ht601 -m aes-256-cfb &>/dev/null &)'
 alias ll='ls -lFrth'
 alias gsh='ssh gl.gl@login1.cm3.alibaba.org'
 alias cp2test='scp target/iceberg-*.*-jar-with-dependencies.jar dptest2:~/gene/'
@@ -80,27 +78,33 @@ alias l='ls -alCF'
 alias yd='/home/lei/Utils/yd.rb'
 #alias idea='(/home/lei/software/idea-IU-135.690/bin/idea.sh 1>/dev/null 2>&1 &)'
 alias idea='(/home/lei/software/idea-IC-139.225.3/bin/idea.sh 1>/dev/null 2>&1 &)'
-#alias pycharm='(/home/lei/software/pycharm-3.1.3/bin/pycharm.sh 1>/dev/null 2>&1 &)'
 alias pycharm='(/home/lei/software/pycharm-community-4.0.3/bin/pycharm.sh 1>/dev/null 2>&1 &)'
-alias clion='(JAVA_HOME=/usr/local/jdk1.8.0_20 /home/lei/software/clion-140.1221.2/bin/clion.sh 1>/dev/null 2>&1 &)'
 alias dp='ssh dp@dp0'
 alias dt2='ssh dptest2'
 alias dt1='ssh dptest1'
-alias gosh='ssh gl.gl@login1.cm3.alibaba.org'
+alias dptrans6='ssh dptrans6'
+alias dptrans7='ssh dptrans7'
+alias dptrans8='ssh dptrans8'
+alias dptrans9='ssh dptrans9'
+alias dptrans10='ssh dptrans10'
+alias dptrans11='ssh dptrans11'
 alias go='/home/lei/Utils/go.sh'
 alias upload=/home/lei/Utils/lg_upload.sh
 
 # User configuration
 
-#export JAVA_HOME="/usr/local/jdk1.8.0_20"
-export JAVA_HOME="/usr/local/jdk1.6.0_45/"
+export JAVA_HOME="/usr/local/jdk1.8.0_05"
 export MVN_HOME="/home/lei/software/apache-maven-3.2.1/"
-export GRADLE_HOME="/home/lei/software/gradle-2.0"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export LIBRARY_PATH=/usr/local/lzo-2.08/lib
 export SCALA_HOME=/home/lei/software/scala-2.11.1
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-export PATH="$JAVA_HOME/bin:$MVN_HOME/bin:$SCALA_HOME/bin:$GRADLE_HOME/bin:$PATH"
+export PATH="$JAVA_HOME/bin:$MVN_HOME/bin:$SCALA_HOME/bin:$PATH"
+export JAVA_LIBRARY_PATH=/home/lei/github/hadoop-lzo/target/native/Linux-amd64-64/lib/
+
 export UM=`python ~/Utils/getip.py`
+
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -121,8 +125,6 @@ export LANG=zh_CN.UTF-8
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 
-# auto upload local ip
-python /home/lei/Utils/putip.py
 ########################################
 if [ -x /usr/bin/dircolors ]; then
 	alias ls='ls --color=auto'
