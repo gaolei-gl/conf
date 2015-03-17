@@ -87,12 +87,6 @@ alias dp='ssh dp@dp0'
 alias dt2='ssh dptest2'
 alias dt1='ssh dptest1'
 alias gosh='ssh gl.gl@login1.cm3.alibaba.org'
-alias dptrans6='ssh dptrans6'
-alias dptrans7='ssh dptrans7'
-alias dptrans8='ssh dptrans8'
-alias dptrans9='ssh dptrans9'
-alias dptrans10='ssh dptrans10'
-alias dptrans11='ssh dptrans11'
 alias go='/home/lei/Utils/go.sh'
 alias upload=/home/lei/Utils/lg_upload.sh
 
