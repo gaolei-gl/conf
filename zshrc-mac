@@ -5,8 +5,9 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
 #ZSH_THEME="afowler"
+ZSH_THEME="frisk"
 #ZSH_THEME="agnoster"
 DEFAULT_USER=lei
 DEFAULT_HOSTNAME=LeitekiMacBook-Air
@@ -66,7 +67,7 @@ alias dt2='ssh dp@dptest2'
 alias cp2dp='scp target/iceberg-*.*-jar-with-dependencies.jar dp0:~/gene'
 alias cp2test='scp target/iceberg-*.*-jar-with-dependencies.jar dptest2:~/gene/'
 #alias gfw='ssh -D10080 -qfnN root@linode'
-alias gfw='(sslocal -s do -p 10080 -l 10080 -k gaolei -m aes-256-cfb &>/dev/null &)'
+alias gfw='(sslocal -s do -p 10080 -l 10080 -k gaolei -m aes-256-cfb &>/dev/null &; sslocal -s 140.205.141.209 -p 8080 -l 7070 -k zLB4ht601 -m aes-256-cfb &>/dev/null &)'
 alias yd='~/Utils/lg_dict.rb'
 alias tmuxa='tmux attach'
 alias gosh='ssh gl.gl@login1.cm3.alibaba.org'
@@ -101,9 +102,9 @@ export LANG=en_US.UTF-8
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 
-#sh ~/.proxy.sh
 if brew list | grep coreutils > /dev/null ; then
 	PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 	alias ls='ls -F --show-control-chars --color=auto'
 	eval `gdircolors -b $HOME/.dir_colors`
 fi
+source /usr/local/bin/virtualenvwrapper.sh
