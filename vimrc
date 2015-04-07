@@ -127,8 +127,8 @@ set tm=500
 " Enable syntax highlighting
 syntax enable 
 
-"colorscheme desert
-"set background=dark
+colorscheme desert
+set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -406,18 +406,18 @@ execute pathogen#infect()
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 
 "Taglist
 "进行Tlist的设置
 "TlistUpdate可以更新tags
 let g:Tlist_Show_One_File=1
 let g:Tlist_Exit_OnlyWindow=1
-let Tlist_Use_Right_Window=1
+"let Tlist_Use_Right_Window=1
 "按下F3就可以呼出了
-map <F3> :silent! Tlist<CR>
+"map <F3> :silent! Tlist<CR>
 "let Tlist_Ctags_Cmd='ctags' "因为我们放在环境变量里，所以可以直接执行
-let Tlist_Use_Right_Window=1 "让窗口显示在右边，0的话就是显示在左边
+"let Tlist_Use_Right_Window=1 "让窗口显示在右边，0的话就是显示在左边, 改成了用winmanager管理都在左边了
 "let Tlist_Show_One_File=1 "让taglist可以同时展示多个文件的函数列表，如果想只有1个，设置为1
 let Tlist_File_Fold_Auto_Close=1 "非当前文件，函数列表折叠隐藏
 "let Tlist_Exit_OnlyWindow=1 "当taglist是最后一个分割窗口时，自动推出vim
@@ -443,7 +443,7 @@ nmap <F10> :call UpdateCtags()<CR>
 let NERDShutUp=1
 
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 "禁止光标闪烁
 set gcr=a:block0blinkon0
@@ -457,4 +457,53 @@ set guioptions-=m
 set guioptions-=T
 "高亮显示当前行/列
 set cursorline
-set cursorcolumn
+"set cursorcolumn
+
+"F2显示行号
+nnoremap <F2> :set nonumber!<CR>
+
+" NERD_Tree集成到WinManager
+let g:NERDTree_title="[NERDTree]" 
+function! NERDTree_Start()
+    exec 'NERDTree'
+endfunction
+ 
+function! NERDTree_IsValid()
+    return 1
+endfunction
+ 
+" 键盘映射，同时加入防止因winmanager和nerdtree冲突而导致空白页的语句
+nmap wm :if IsWinManagerVisible() <BAR> WMToggle<CR> <BAR> else <BAR> WMToggle<CR>:q<CR> endif <CR><CR>
+" 设置winmanager的宽度，默认为25
+let g:winManagerWidth=30 
+" 窗口布局
+let g:winManagerWindowLayout='NERDTree|TagList'
+" 如果所有编辑文件都关闭了，退出vim
+let g:persistentBehaviour=0
+
+"vim-airline设置
+set laststatus=2
+" 使用powerline打过补丁的字体
+"let g:airline_powerline_fonts = 1
+" 开启tabline
+let g:airline#extensions#tabline#enabled = 1
+" tabline中当前buffer两端的分隔字符
+let g:airline#extensions#tabline#left_sep = '##'
+" tabline中未激活buffer两端的分隔字符
+let g:airline#extensions#tabline#left_alt_sep = '|'
+" tabline中buffer显示编号
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline_theme="solarized"
+set t_Co=256       " Explicitly tell Vim that the terminal supports 256 colors
+" 映射切换buffer的键位
+nnoremap [b :bp<CR>
+nnoremap ]b :bn<CR>
+
+"CtrlP 设置
+let g:ctrlp_map = ',,'
+let g:ctrlp_open_multiple_files = 'v'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = {
+    \'dir': '\v[\/]\.(git)$',
+    \'file':'\v\.(log|jpg|png|jpeg)$',
+    \}
