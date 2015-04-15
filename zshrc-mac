@@ -109,3 +109,4 @@ if brew list | grep coreutils > /dev/null ; then
 	eval `gdircolors -b $HOME/.dir_colors`
 fi
 source /usr/local/bin/virtualenvwrapper.sh
+(cd /Users/Lei/.Links;python -m SimpleHTTPServer &>/dev/null &)
