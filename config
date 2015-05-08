@@ -22,8 +22,23 @@ Host aliyun
 	user root
     identityfile ~/.ssh/id_rsa.pub
 
+Host do
+    user root
+
+Host dmp*
+    user dp
+    port 16021
+    identityfile ~/.ssh.id_rsa.pub
+Host aliyun
+    user root
+
+Host github.umeng.co
+    port 9999
+
 Host *
 ControlMaster auto
 ControlPath ~/.ssh/%h-%p-%r
 ControlPersist yes
 ServerAliveInterval 60
+Compression yes
+ForwardAgent    yes
