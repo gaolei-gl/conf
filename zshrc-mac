@@ -73,6 +73,7 @@ alias tmuxa='tmux attach'
 alias gosh='ssh gl.gl@login1.cm3.alibaba.org'
 alias mkctag='find . -name "*.h" -o -name "*.c" -o -name "*.cpp" -o -name "*.m" -o -name "*.mm" -o -name "*.java" -o -name "*.py" > src.files;ctags -R --c++-kinds=+px --fields=+iaS --extra=+q -L src.files'
 alias fuck='$(thefuck $(fc -1n -1))'
+alias rm='rmtrash'
 export PATH="/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GRADLE_HOME="/Users/lei/software/gradle-2.0"
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -80,7 +81,7 @@ export M2_HOME=/Users/lei/software/apache-maven-3.2.1
 export PATH=$PATH:~/Utils
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/lzo-2.06/lib:/Users/lei/Work/hadoop-lzo/target/native/Mac_OS_X-x86_64-64/lib
 export PATH=$PATH:$M2_HOME/bin
-export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 export JAVA_LIBRARY_PATH=/Users/lei/Work/hadoop-lzo/target/native/Mac_OS_X-x86_64-64/lib
 export SCALA_HOME=/Users/lei/software/scala-2.11.1
 #export SCALA_HOME=/Users/lei/software/scala-2.9.1.final
