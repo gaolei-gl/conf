@@ -26,5 +26,5 @@ fe80::1%lo0	localhost
 #### End ( Settings for Umeng )
 #
 #
-104.131.46.35   do
-127.0.0.1   gw
+#
+120.24.48.201   aliyun
