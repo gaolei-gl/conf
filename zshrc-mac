@@ -5,9 +5,9 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 #ZSH_THEME="afowler"
-ZSH_THEME="frisk"
+#ZSH_THEME="frisk"
 #ZSH_THEME="agnoster"
 DEFAULT_USER=lei
 DEFAULT_HOSTNAME=LeitekiMacBook-Air
@@ -66,14 +66,14 @@ alias dt1='ssh dp@dptest1'
 alias dt2='ssh dp@dptest2'
 alias cp2dp='scp target/iceberg-*.*-jar-with-dependencies.jar dp0:~/gene'
 alias cp2test='scp target/iceberg-*.*-jar-with-dependencies.jar dptest2:~/gene/'
-#alias gfw='ssh -D10080 -qfnN root@linode'
-alias gfw='(sslocal -s do -p 10080 -l 10080 -k gaolei -m aes-256-cfb &>/dev/null &; sslocal -s 140.205.141.209 -p 8080 -l 7070 -k zLB4ht601 -m aes-256-cfb &>/dev/null &)'
+alias gfw='(sslocal -s 140.205.141.209 -p 8080 -l 7070 -k zLB4ht601 -m aes-256-cfb &>/dev/null &)'
 alias yd='~/Utils/lg_dict.rb'
 alias tmuxa='tmux attach'
 alias gosh='ssh gl.gl@login1.cm3.alibaba.org'
 alias mkctag='find . -name "*.h" -o -name "*.c" -o -name "*.cpp" -o -name "*.m" -o -name "*.mm" -o -name "*.java" -o -name "*.py" > src.files;ctags -R --c++-kinds=+px --fields=+iaS --extra=+q -L src.files'
 alias fuck='$(thefuck $(fc -1n -1))'
 alias rm='rmtrash'
+alias oss='python ~/Documents/oss/osscmd'
 export PATH="/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GRADLE_HOME="/Users/lei/software/gradle-2.0"
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -83,8 +83,7 @@ export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/lzo-2.06/lib:/Users/lei
 export PATH=$PATH:$M2_HOME/bin
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 export JAVA_LIBRARY_PATH=/Users/lei/Work/hadoop-lzo/target/native/Mac_OS_X-x86_64-64/lib
-export SCALA_HOME=/Users/lei/software/scala-2.11.1
-#export SCALA_HOME=/Users/lei/software/scala-2.9.1.final
+export SCALA_HOME=/Users/lei/software/scala-2.10.4
 export PATH=/$SCALA_HOME/bin:$GRADLE_HOME/bin:$PATH
 #export LSCOLORS=ExFxBxDxCxegedabagacad
 export LANG=en_US.UTF-8
@@ -111,4 +110,11 @@ if brew list | grep coreutils > /dev/null ; then
 	eval `gdircolors -b $HOME/.dir_colors`
 fi
 source /usr/local/bin/virtualenvwrapper.sh
-(cd /Users/Lei/.Links;python -m SimpleHTTPServer &>/dev/null &)
+
+function start_qujing {
+  export http_proxy='http://theironislands.f.getqujing.net:37241'
+}
+
+function stop_qujing {
+  export http_proxy=
+}
